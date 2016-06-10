@@ -25,9 +25,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://gitlab.com/maca134/node-jscon.git"
+		"url": "git+https://github.com/maca134/node-jscon.git"
 	},
 	"bugs": {
-		"url": "https://gitlab.com/maca134/node-jscon/issues"
+		"url": "https://github.com/maca134/node-jscon/issues"
 	}
 }
