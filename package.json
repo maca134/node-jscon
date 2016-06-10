@@ -1,0 +1,33 @@
+{
+	"name": "jscon",
+	"bin": {
+		"jscon": "./bin/cmd.js"
+	},
+	"keywords": [
+		"rcon"
+	],
+	"version": "1.0.0",
+	"description": "A node package for server rcon",
+	"main": "index.js",
+	"author": "Matthew McConnell",
+	"license": "MIT",
+	"dependencies": {
+		"async": "^2.0.0-rc.6",
+		"big-integer": "^1.6.15",
+		"buffer-crc32": "^0.2.5",
+		"cjson": "^0.4.0",
+		"colors": "^1.1.2",
+		"crypto-js": "^3.1.6",
+		"extend": "^3.0.0",
+		"fs-jetpack": "^0.9.1",
+		"moment": "^2.13.0",
+		"request": "^2.72.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://gitlab.com/maca134/node-jscon.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/maca134/node-jscon/issues"
+	}
+}

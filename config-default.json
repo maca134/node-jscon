@@ -1,0 +1,68 @@
+{
+	"debug": true, // prevents any kicks/msgs/etc
+	"log": [
+		"DEBUG",
+		"INFO",
+		"SUCCESS",
+		"WARN",
+		"ERROR",
+		"CONNECTED",
+		"DISCONNECTED",
+		"KICK",
+		"CHAT"
+	],
+	"servername": "TESTSERVER", // server name to be sent with logs etc
+	"ip": "127.0.0.1",
+	"rconport": 2304,
+	"queryport": 2303,
+	"password": "password",
+	"steaminterval": 1, // seconds
+	"playerlistinterval": 5, // seconds
+	"bans": {
+		"url": "http://community.com/banlist.php", // A url to download a battleye ban list
+		"interval": 30 // seconds
+	},
+
+	/*
+		PLUGINS
+		Set property to false to disable
+	*/
+
+	// Kick players if they type bad words
+	"badwords": [
+		"shit",
+		"fuck"
+	],
+
+	// enable bancheck
+	"bancheck": true,
+
+	// if user types !cmd send them a message. Includes !uptime command
+	"cmds": {
+		"admin": "Please goto ts.community.com for help." // send this to players is they type !admin is any chat channel
+	},
+
+	// enable console/log output
+	"monitor": true,
+
+	// post events to urls
+	"reporter": {
+		"log": "http://community.com/log.php",
+		"chat": "http://community.com/chat.php"
+	},
+
+	// reserved slots
+	"reservedslots": {
+		"url": "http://community.com/subs.php", // json sub list [{steamid: '123'}, {steamid: '456'}, {steamid: '789'}]
+		"kickmessage": "Subscriber Slot", // msg to kick players with
+		"slots": 5, // slots to keep open for subs
+		"interval": 30 // seconds
+	},
+
+	// restart warnings
+	"restartwarnings": {
+		"uptime": 120, // minutes
+		"warnat": [1,2,3,4,5,10,30,60], // mins before restart to send warning
+		"lockat": 5 // lock server at x mins. set to 0 to disable
+	}
+}

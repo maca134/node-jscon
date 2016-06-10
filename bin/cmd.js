@@ -1,0 +1,2 @@
+var jscon = require('../');
+jscon();
