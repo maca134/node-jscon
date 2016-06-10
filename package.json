@@ -1,12 +1,10 @@
 {
 	"name": "jscon",
-	"bin": {
-		"jscon": "./bin/cmd.js"
-	},
+	"bin": "./bin/cmd.js",
 	"keywords": [
 		"rcon"
 	],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A node package for server rcon",
 	"main": "index.js",
 	"author": "Matthew McConnell",
