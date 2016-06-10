@@ -4,7 +4,7 @@
 	"keywords": [
 		"rcon"
 	],
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A node package for server rcon",
 	"main": "index.js",
 	"author": "Matthew McConnell",
