@@ -16,11 +16,11 @@
 	"rconport": 2304,
 	"queryport": 2303,
 	"password": "password",
-	"steaminterval": 1, // seconds
-	"playerlistinterval": 5, // seconds
+	"steaminterval": 1, // steam query update in seconds
+	"playerlistinterval": 5, // player list update in seconds
 	"bans": {
 		"url": "http://community.com/banlist.php", // A url to download a battleye ban list
-		"interval": 30 // seconds
+		"interval": 30 // interval to update bans list in seconds
 	},
 
 	/*
@@ -56,12 +56,12 @@
 		"url": "http://community.com/subs.php", // json sub list [{steamid: '123'}, {steamid: '456'}, {steamid: '789'}]
 		"kickmessage": "Subscriber Slot", // msg to kick players with
 		"slots": 5, // slots to keep open for subs
-		"interval": 30 // seconds
+		"interval": 30 // interval to update sublist in seconds
 	},
 
 	// restart warnings
 	"restartwarnings": {
-		"uptime": 120, // minutes
+		"uptime": 120, // server uptime in minutes
 		"warnat": [1,2,3,4,5,10,30,60], // mins before restart to send warning
 		"lockat": 5 // lock server at x mins. set to 0 to disable
 	}
