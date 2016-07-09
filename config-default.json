@@ -48,7 +48,8 @@
 	// post events to urls
 	"reporter": {
 		"log": "http://community.com/log.php",
-		"chat": "http://community.com/chat.php"
+		"chat": "http://community.com/chat.php",
+		"connect": "http://community.com/connect.php"
 	},
 
 	// reserved slots
